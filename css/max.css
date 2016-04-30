@@ -1,0 +1,59 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select {
+		font-size: 17pt;
+	}
+	
+	/* Main */
+		
+		.main {
+		}
+		
+			.main.style2 {
+			}
+			
+				.main.style2 .content {
+					opacity:1;
+					width: 45%;
+				}
+			
+					.main.style2.right .content {
+						left: 33%;
+						margin-left: 28%;
+						text-align: center;
+						opacity:1;
+					}
+
+				.main.style2.inactive {
+					opacity:0;
+				}
+
+					.main.style2.inactive .content {
+						opacity:0;
+					}
+
+						.main.style2.inactive.left .content {
+							left: -40%;
+						}
+.main.style1 .content {
+					opacity: 1.0;
+
+					-moz-transition: all 1s ease;
+					-webkit-transition: all 1s ease;
+					-o-transition: all 1s ease;
+					-ms-transition: all 1s ease;
+					transition: all 1s ease;
+					
+					-moz-transform: translateZ(0);
+					-webkit-transform: translateZ(0);
+					-o-transform: translateZ(0);
+					-ms-transform: translateZ(0);
+					transform: translateZ(0);
+					
+					position: absolute;
+					text-align: center;
+					margin: auto;
+					margin-left: 30%;
+				}

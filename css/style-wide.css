@@ -1,0 +1,39 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select {
+		font-size: 17pt;
+	}
+	
+	/* Main */
+		
+		.main {
+		}
+		
+			.main.style2 {
+			}
+			
+				.main.style2 .content {
+					opacity:1;
+					width: 45%;
+				}
+			
+					.main.style2.right .content {
+						left: 0%;
+						margin-left: 28%;
+						text-align: center;
+						opacity:1;
+					}
+
+				.main.style2.inactive {
+					opacity:0;
+				}
+
+					.main.style2.inactive .content {
+						opacity:0;
+					}
+
+						.main.style2.inactive.left .content {
+							left: -40%;
+						}
